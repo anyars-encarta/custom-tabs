@@ -1,10 +1,10 @@
-import CustomTabs from './components/custom-tabs';
+import TabsUse from './components/custom-tabs/tabs-use';
 import './App.css';
 
 const App = () => {
   return (
     <div className="App">
-      <CustomTabs />
+      <TabsUse />
     </div>
   );
 }
