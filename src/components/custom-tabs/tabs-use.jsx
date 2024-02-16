@@ -3,7 +3,7 @@ import './styles.css';
 
 const RandomComponent = () => {
     return (
-        <div>This is from the Random component</div>
+        <h1>This is from the Random component</h1>
     )
 };
 
@@ -28,7 +28,8 @@ const TabsUse = () => {
     ]
 
     const handleChange = (currentTabIndex) => {
-        console.log(currentTabIndex);
+        let currentIndex;
+        currentIndex = currentTabIndex
     };
 
     return (

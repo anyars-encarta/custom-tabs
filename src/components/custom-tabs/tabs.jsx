@@ -6,7 +6,7 @@ const CustomTabs = ({tabsContent, onChange}) => {
     const handleOnClick = (getCurrentIndex) => {
         setCurrentTabIndex(getCurrentIndex);
         onChange(getCurrentIndex);
-    };
+    }
 
     return (
         <div className="wrapper">
